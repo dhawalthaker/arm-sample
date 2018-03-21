@@ -18,17 +18,16 @@
                 },
                 {
                     "field": "Microsoft.Compute/imagePublisher",
-                    "equals": "Canonical"
+                    "equals": "RedHat"
                 },
                 {
                     "field": "Microsoft.Compute/imageOffer",
-                    "equals": "UbuntuServer"
+                    "equals": "RHEL"
                 },
                 {
                     "field": "Microsoft.Compute/imageSKU",
                     "in": [
-                        "14.04.5-LTS",
-                        "12.04.2-LTS"
+                        "7-RAW"                        
                     ]
                 }
             ]
